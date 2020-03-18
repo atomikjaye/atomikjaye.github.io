@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AtomikJaye Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d">
+    </head>
+    <body>
+        <div id="container" class="wrapper">
+            <ul id="scene" class="scene unselectable">
+                <!-- <li class="layer"></li> -->
+
+                <li class="layer" data-depth="0.1"><div class="background">My first Layer!</div></li>
+                <li class="layer" data-depth="0.3"><div class="tri-top"></div></li>
+                <li class="layer" style="z-index: 500;" data-depth="0.5">
+                    <div class="title">
+                        <span style="z-index: 500;">
+                            <h1>Artist • Programmer • Streamer</h1>
+                            <div class="social-media" style="z-index: 500;">
+                                <a href="https://www.twitch.tv/atomikjaye"><i class="socicon-twitch"></i></a>
+                                <a href="https://www.twitter.com/atomikjaye"><i class="socicon-twitter"></i></a>
+                                <a href="https://www.instagram.com/atomikjaye"><i class="socicon-instagram"></i></a>
+                                <a href="https://www.github.com/atomikjaye"><i class="socicon-github"></i></a>
+                            </div>
+                        </span>
+                    </div>
+                </li>
+                <li class="layer" data-depth="0.2"><div class="tri-bottom"></div></li>
+                <li class="layer" data-depth="0.4"><div class="tri-right"></div></li>
+                <li class="layer" data-depth="0.6"><div class="tri-left"></div></li>
+                <li class="layer" data-depth="0.8"><div class="abstract-right"></div></li>
+                <li class="layer" data-depth="0.7"><div class="tri-pills"></div></li>
+                <li class="layer" data-depth="0.2"><div class="doodle"></div></li>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script type="text/javascript">
+            var scene = document.getElementById('scene');
+            var parallaxInstance = new Parallax(scene);
+        </script>
+    </body>
+</html>
